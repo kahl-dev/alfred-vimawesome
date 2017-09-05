@@ -1,0 +1,21 @@
+{
+  "name": "alfred-vimawesome",
+  "version": "1.0.0",
+  "description": "Search vim plugins from vimawesome",
+  "license": "MIT",
+  "repository": "patrickkahl/alfred-vimawesome",
+  "author": {
+    "name": "Patrick Kahl",
+    "email": "Kahl.Patrick@googlemail.com",
+    "url": "github.com/patrickkahl"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": ["alfred", "workflow", "alfy", "vim", "vimawesome"],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "encodeurl": "^1.0.1"
+  }
+}
